@@ -1,2 +1,1 @@
-# AirBnB_clone
-AirBnB_clone Collaboration Project
+ALXBnB is a complete web application, integrating database storage, a back-end API, and front-end interfacing in a clone of AirBnB
