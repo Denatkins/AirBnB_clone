@@ -1,0 +1,14 @@
+/*
+ * === Filters style ===
+ */
+
+/* Filters style */
+.filters {
+	background-color: #ffffff;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+/* Search button style */
+.filters button{
