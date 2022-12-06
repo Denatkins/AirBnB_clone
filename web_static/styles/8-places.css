@@ -57,3 +57,35 @@
 	display: flex;
 	justify-content: center;
 }
+
+.information p {
+	padding-top: 35px;
+	text-align: center;
+}
+.max_guest, .number_rooms, .number_bathrooms {
+	width: 100px;
+} 
+.max_guest {
+	background: url('../images/icon_group.png') no-repeat;
+	margin-top: 6px;
+	background-position-x: center ;
+}
+.number_rooms {
+	background: url('../images/icon_bed.png') no-repeat;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-position-x:center ;
+}
+.number_bathrooms {
+	background: url('../images/icon_bath.png') no-repeat;
+	margin-top: 6px;
+	background-position-x: center;
+}
+.places .user {
+  margin: 20px auto 20px auto;
+}
+
+footer {
+	position: relative;
+}
