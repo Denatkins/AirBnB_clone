@@ -88,7 +88,7 @@
 	background-position-x: center;
 }
 .places .user {
-	margin: 20px auto 20px auto;
+  margin: 20px auto 20px auto;
 }
 .amenities ul, .reviews ul {
 	list-style-type: none;
@@ -99,7 +99,7 @@
 	text-indent: 30px;
 }
 .reviews li {
-padding-bottom: 3px;
+	padding-bottom: 3px;
 }
 .amenities h2, .reviews h2{
 	font-size: 16px;
@@ -109,3 +109,41 @@ padding-bottom: 3px;
 	text-align: left;
 }
 .pat {
+	background: url('../images/icon_pets.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
+}
+.tv {
+	background: url('../images/icon_tv.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
+}
+.wifi {
+	background: url('../images/icon_wifi.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
+}
+.air {
+	background: url('../images/air-conditioner1.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
+}
+.reviews {
+	margin-top: 40px;
+	width: 100%;
+	flex: 1;
+}
+.reviews h3 {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 0;
+} 
+.reviews p{
+	font-size: 12px;
+	margin-top: -10px;
+}
+@media only screen and (max-width:  1000px){
+	.places h1{
+		width: 95%;
+	}
+}
